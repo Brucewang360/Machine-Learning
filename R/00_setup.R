@@ -12,7 +12,7 @@ do_clr <- TRUE          # Apply CLR transformation to microbial abundances
 pseudocount <- 1e-6     # Pseudocount for CLR
 alpha_enet <- 0.5       # Elastic net mixing parameter
 seed_split <- 242       # Seed for data partitioning
-seed_cv <- 119          # Seed for elastic net cross-validation
+seed_cv <- 242          # Seed for elastic net cross-validation
 seed_smote <- 242       # Seed for SMOTE upsampling
 
 # Variable names (as defined in the original data)
