@@ -7,12 +7,12 @@ An elastic net is used for feature selection, followed by training and compariso
 
 # Project Structure
 
-ML_PS/
-├── data/ # Place your Excel file (1_Metadata.xlsx) here
-├── output/ # All results will be saved here (created automatically)
-├── R/ # R scripts for each step
-├── run_all.R # Master script to run the entire pipeline
-├── renv.lock # Package versions (optional, use renv)
+ML_Sarcopenia/
+├── data/
+├── output/
+├── R/
+├── run_all.R
+├── renv.lock
 └── README.md
 
 # Requirements
