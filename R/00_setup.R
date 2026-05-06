@@ -16,11 +16,10 @@ seed_cv <- 242          # Seed for elastic net cross-validation
 seed_smote <- 242       # Seed for SMOTE upsampling
 
 # Variable names (as defined in the original data)
-ordinal_vars <- c("H23", "H27", "J3a", "J3b", "J3c", "J1", "J5")
-continuous_vars <- c("Age", "BMI", "EO", "Hb", "WBC", "MPV", "RBC", "PLT", "L", "N", "H3", "H2_1")
-binary_vars <- c("Gender")
-microbiome_vars <- c("Corynebacterium", "Veillonella", "Rothia", "Selenomonas",
-                     "Oribacterium", "Bifidobacterium", "Streptococcus", "Megasphaera", "TM7x")
+ordinal_vars <- c()
+continuous_vars <- c()
+binary_vars <- c()
+microbiome_vars <- c()
 
 # Output directory
 output_dir <- "output"
