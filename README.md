@@ -1,13 +1,13 @@
 # Machine-Learning
-Analysis code for Oral Microbiota and Sarcopenia Prediction
-# Machine Learning for Sarcopenia Prediction – Feature Selection & Model Comparison
+Analysis code for Oral Microbiota and Possible Sarcopenia Prediction
+# Machine Learning for Possible Sarcopenia Prediction – Feature Selection & Model Comparison
 
-This repository contains the complete R code for predicting sarcopenia using clinical and microbiome data.  
+This repository contains the complete R code for predicting possible sarcopenia using clinical and microbiome data.  
 An elastic net is used for feature selection, followed by training and comparison of five machine learning models: Logistic Regression, Naive Bayes, Random Forest, SVM, and XGBoost.
 
 # Project Structure
 
-ML_Sarcopenia/
+ML_PS/
 ├── data/ # Place your Excel file (1_Metadata.xlsx) here
 ├── output/ # All results will be saved here (created automatically)
 ├── R/ # R scripts for each step
